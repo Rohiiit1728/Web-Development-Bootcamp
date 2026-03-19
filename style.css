@@ -1,12 +1,18 @@
 /* CSS Reset */
 
-#experience ul {
-    padding-left: 20px;
-    list-style-position: inside;
+*{
     font-family: 'Baloo Tamma 2', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
+/* Fix Experience List */
+#experience ul {
+    padding-left: 25px;
+    margin-left: 0;
+}
 
+#experience li {
+    margin-bottom: 6px;
+}
 /* Navigation Bar */
 #navbar h2{
     font-weight: bolder;
